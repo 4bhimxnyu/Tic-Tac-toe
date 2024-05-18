@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5998C5;
+    text-align: center;
+}
+
+#heading{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: italic bold;
+    color: #393E41;
+}
+
+.container{
+    height: 70vmin;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    font-size: 10vmin;
+    background-color: #5BC3EB;
+    color: #393E41;
+} 
+
+#reset-btn{
+    background-color: #393E41;
+    color: #E9F1F7;
+    font-size: 2.5vmin;
+    padding: auto;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 3)
+}
+
+#new-btn{
+    background-color: #393E41;
+    color: #E9F1F7;
+    font-size: 2.5vmin;
+    padding: auto;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 3)
+}
+
+#msg{
+    color: black;
+    font-size: 5vmin;
+}
+
+.msg-container{
+height: 19vmin;
+}
+
+.hide{
+    display: none;
+}
+
+#free{
+    height: 5vmin;
+}
